@@ -58,8 +58,10 @@ int print_rev(va_list l, flags_t *f)
 
 	for (j = i - 1; j >= 0; j--)
 		_putchar(s[j]);
+
 	return (i);
 }
+
 /**
  * print_rot13 - prints a string using rot13
  * @l: list of arguments from _printf
@@ -91,6 +93,7 @@ int print_rot13(va_list l, flags_t *f)
 
 	return (j);
 }
+
 /**
  * print_percent - prints a percent
  * @l: va_list arguments from _printf
@@ -103,4 +106,3 @@ int print_percent(va_list l, flags_t *f)
 	(void)f;
 	return (_putchar('%'));
 }
-
