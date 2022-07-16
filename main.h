@@ -16,7 +16,7 @@ typedef struct flags
 	int plus;
 	int space;
 	int hash;
-} flags_t
+} flags_t;
 
 /**
  * struct printHandler - struct to choose the right function depending
